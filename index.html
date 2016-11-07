@@ -47,14 +47,44 @@
 				
 				<fieldset>
 					<legend>Newsletter</legend>
+					<label>Select the newsletters you would like to receive</label>
 					
+					<input type="checkbox" id="news" value="html-news">
+					<label for="news">HTML News</label>
 					
+					<input type="checkbox" id="news" value="css-news">
+					<label for="news">CSS News</label>
+					
+					<input type="checkbox" id="news" value="javascript-news">
+					<label for="news">Javascript News</label>
+					
+					<label>Newsletter Format</label>
+					
+					<input type="radio" id="html" value="html" name="html">
+					<label>HTML</label>
+					
+					<input type="radio" id="plain-text" value="plain-text" name="plain-text">
+					<label>Plain text</label>
+					
+					<input type="radio" id="pdf" value="pdf" name="pdf">
+					<label>PDF</label>
+					
+					<label for="language">Language</label>
+          			<select>
+            			<optgroup label="Language">
+						  <option value="english">English</option>
+						  <option value="spanish">Spanish</option>
+						  <option value="french">French</option>
+						  <option value="german">German</option>
+						</optgroup>
+				</select>	
 				</fieldset>
 			
 			
 			
 			
 			
+				<button type="submit">Sign Up</button>
 			</form>
 		
 		</div>
