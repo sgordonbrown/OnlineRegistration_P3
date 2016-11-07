@@ -1,1 +1,18 @@
-/* font-family: 'Hind', sans-serif; */
+/*** BASE STYLES ***/
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Hind', sans-serif;
+	color: #1c1f2;
+}
+
+header h1 {
+	background: #1c1f2;
+	color: #e3e5e8;
+	text-align: center;
+	text-transform: uppercase;
+}
