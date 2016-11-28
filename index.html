@@ -17,6 +17,7 @@
 			<h2>Signup for our newsletter</h2>
 			<p>Get the latest news on how your code is doing right in your inbox</p>
 		</div>
+		<div class="border-1"></div>
 		<div id="container">
 			<form action="index.html" method="post">
 				<fieldset>
@@ -41,7 +42,7 @@
 					<input type="text" id="city">
 			
 					<label for="state">State</label>
-					<select id="state" name"user_state">
+					<select id="state-select" name"user_state">
 						<option value="select-state">Select State</option>
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
@@ -101,30 +102,30 @@
 					<input type="text" id="zip-code">
 			
 				</fieldset>
-				
-				<fieldset>
+				<div class="border-2"></div>
+				<fieldset class="form-options">
 					<legend>Newsletter</legend>
 				
 					<label>Select the newsletters you would like to receive</label>					
-					<input type="checkbox" id="news" value="html-news">
-					<label for="news">HTML News</label>
+					<input type="checkbox" id="html-news" value="html-news">
+					<label for="html-news">HTML News</label>
 					
-					<input type="checkbox" id="news" value="css-news">
-					<label for="news">CSS News</label>
+					<input type="checkbox" id="css-news" value="css-news">
+					<label for="css-news">CSS News</label>
 					
-					<input type="checkbox" id="news" value="javascript-news">
-					<label for="news">Javascript News</label>
+					<input type="checkbox" id="javascript-news" value="javascript-news">
+					<label for="javascript-news">Javascript News</label>
 					
 					
 					<label>Newsletter Format</label>					
 					<input type="radio" id="html" value="html" name="html">
-					<label>HTML</label>
+					<label for="html">HTML</label>
 					
 					<input type="radio" id="plain-text" value="plain-text" name="plain-text">
-					<label>Plain text</label>
+					<label for="plain-text">Plain text</label>
 					
 					<input type="radio" id="pdf" value="pdf" name="pdf">
-					<label>PDF</label>
+					<label for="pdf">PDF</label>
 									
 					<label for="language">Language</label>          			
 						<select id="language" name="language">							
