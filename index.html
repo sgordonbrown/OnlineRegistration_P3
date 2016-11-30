@@ -43,7 +43,7 @@
 			
 					<label for="state-select">State</label>
 					<select id="state-select" name="user-state">
-						<option value="select-state">Select State</option>
+						<option value="select-state" selected disabled>Select State</option>
 						<option value="AL">Alabama</option>
 						<option value="AK">Alaska</option>
 						<option value="AZ">Arizona</option>
@@ -107,7 +107,7 @@
 				<fieldset class="form-options">
 					<legend>Newsletter</legend>
 				
-					<label>Select the newsletters you would like to receive</label>					
+					<h3>Select the newsletters you would like to receive</h3>					
 					<input type="checkbox" id="html-news" value="html-news">
 					<label for="html-news">HTML News</label>
 					
@@ -118,7 +118,7 @@
 					<label for="javascript-news">Javascript News</label>
 					
 					
-					<label>Newsletter Format</label>					
+					<h3>Newsletter Format</h3>					
 					<input type="radio" id="html" value="html" name="format">
 					<label for="html">HTML</label>
 					
@@ -128,14 +128,16 @@
 					<input type="radio" id="pdf" value="pdf" name="format">
 					<label for="pdf">PDF</label>
 									
-					<label for="language">Language</label>          			
-						<select id="language" name="language">							
-						  <option value="select-language">Select Language</option>
-						  <option value="english">English</option>
-						  <option value="spanish">Spanish</option>
-						  <option value="french">French</option>
-						  <option value="german">German</option>
-						</select>
+					<h3><label for="language">
+						Language
+					</label></h3>          			
+					<select id="language" name="language">							
+					  <option value="select-language" selected disabled>Select Language</option>
+					  <option value="english">English</option>
+					  <option value="spanish">Spanish</option>
+					  <option value="french">French</option>
+					  <option value="german">German</option>
+					</select>
 				
 					<label for="other-topics">Other topics you'd like to hear about</label>
 					<textarea id="other-topics" name="other-topics-box"></textarea>

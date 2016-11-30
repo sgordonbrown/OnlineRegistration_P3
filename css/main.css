@@ -42,6 +42,11 @@ legend {
 	padding-bottom: 15px;
 }
 
+h3 {
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
 p {
 	font-size: 1.2em;
 	font-weight: 300;
@@ -173,7 +178,7 @@ button {
         border: none;
         color: white;
         font-size: 1.2em;
-        text-align: center'     
+        text-align: center;     
     }
 /** MEDIA QUERY **/
 
